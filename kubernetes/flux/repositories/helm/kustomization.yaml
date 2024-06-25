@@ -5,3 +5,4 @@ resources:
   - ./argo.yaml
   - ./bjw-s.yaml
   - ./weave-gitops.yaml
+  - ./nfs-subdir-external-provisioner.yaml
