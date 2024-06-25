@@ -21,5 +21,6 @@ spec:
     remediation:
       retries: 3
   values:
-    nfs.server: "${NFS_SERVER}"
-    nfs.path: /home-lab/cluster
+    nfs:
+      server: "${NFS_SERVER}"
+      path: /home-lab/cluster
