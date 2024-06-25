@@ -23,4 +23,4 @@ spec:
   values:
     nfs:
       server: "${NFS_SERVER}"
-      path: /home-lab/cluster
+      path: "/home-lab/cluster"
