@@ -8,7 +8,7 @@ spec:
   chart:
     spec:
       chart: nfs-subdir-external-provisioner
-      version: 4.0.2
+      version: 4.0.18
       sourceRef:
         kind: HelmRepository
         name: nfs-subdir-external-provisioner
@@ -21,5 +21,5 @@ spec:
     remediation:
       retries: 3
   values:
-    nfs.server="${NFS_SERVER}"
-    nfs.path="#{ bootstrap_nfs.path }#"
+    nfs.server: "${NFS_SERVER}"
+    nfs.path: #{ bootstrap_nfs.path }#
